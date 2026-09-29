@@ -57,7 +57,7 @@
   .search button:hover{filter:brightness(1.08)}
 
   .grid{
-    width:100%;max-width:960px;display:grid;gap:18px;
+    width:100%;max-width:820px;display:grid;gap:18px;
     grid-template-columns:repeat(auto-fit,minmax(160px,1fr));
   }
   a.tile{
@@ -123,11 +123,16 @@ const MUZ = document.getElementById("muzlogo").src;
 const LINKS = [
   { name: "Gmail",              url: "https://mail.google.com/",   color: "#ea4335",
     logo: "https://www.gstatic.com/images/branding/product/2x/gmail_2020q4_48dp.png" },
+  { name: "Google Drive",       url: "https://drive.google.com/",  color: "#1a73e8",
+    logo: "https://www.gstatic.com/images/branding/product/2x/drive_2020q4_48dp.png" },
   { name: "Muzarto",            url: "https://www.muzarto.be/",    color: "#e8590c", logo: MUZ, wide: true },
   { name: "Gemeente Essen",     url: "https://www.essen.be/",      color: "#0f766e" },
   { name: "Gemeente Kalmthout", url: "https://www.kalmthout.be/",  color: "#15803d" },
   { name: "Intranet Essen",     url: "https://intranet.essen.be/", color: "#1d4ed8",
     logoFrom: "www.essen.be" },
+  { name: "SharePoint Muzarto", url: "https://academiemuzarto.sharepoint.com/sites/adm/Muzarto/Forms/AllItems.aspx",
+    color: "#038387",
+    logo: "https://res-1.cdn.office.net/files/fabric-cdn-prod_20230815.002/assets/brand-icons/product/png/sharepoint_48x1.png" },
 ];
 const NAAM = "";     // naam in de begroeting (leeg laten = geen naam)
 /* ======================================== */
